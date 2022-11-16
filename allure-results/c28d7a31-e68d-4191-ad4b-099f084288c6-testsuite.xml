@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668534399284' stop='1668534413123'>
+    <name>Verify the functionality of Login: Login to the account</name>
+    <title>Verify the functionality of Login: Login to the account</title>
+    <test-cases>
+        <test-case start='1668534399285' status='passed' stop='1668534399287'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668534399287' status='passed' stop='1668534399304'>
+            <name>Given User is on the login page</name>
+            <title>Given User is on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668534399304' status='passed' stop='1668534412248'>
+            <name>When User provide "shereavi26@gmail.com" and "Password@123"</name>
+            <title>When User provide "shereavi26@gmail.com" and "Password@123"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668534412248' status='failed' stop='1668534413115'>
+            <name>Then Verify user is on my account page</name>
+            <title>Then Verify user is on my account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ad57afe9-8736-4864-95c7-93097cfb4fb8-attachment.png' type='image/png' size='459481'/>
+            </attachments>
+            <failure>
+                <message>AssertionError</message>
+                <stack-trace>AssertionError
+                    + expected - actual
+                
+                    -Home Page
+                    +My Account
+                
+                    at CreateAccountPage.verifyMyAccount (E:\Project\WebDriverIO-CodeTest\features\pageobjects\createAccount.page.js:89:28)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (E:\Project\WebDriverIO-CodeTest\features\step-definitions\steps.js:35:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668534413117' status='passed' stop='1668534413120'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

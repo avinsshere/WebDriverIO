@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668580039363' stop='1668580044753'>
+    <name>Add Product to cart, Proceed to checkout till make payments and validate order: Proceed to checkout and confirm the order</name>
+    <title>Add Product to cart, Proceed to checkout till make payments and validate order: Proceed to checkout and confirm the order</title>
+    <test-cases>
+        <test-case start='1668580039363' status='passed' stop='1668580039364'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668580039364' status='broken' stop='1668580044750'>
+            <name>Given User is on checkout page</name>
+            <title>Given User is on checkout page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f3deafc8-d533-49a5-8d47-a980d496acb2-attachment.png' type='image/png' size='321821'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("div[data-bind='html: $parent.prepareMessageForHtml(message.text)']") still not displayed after 5000ms</message>
+                <stack-trace>Error: element ("div[data-bind='html: $parent.prepareMessageForHtml(message.text)']") still not displayed after 5000ms
+                    at E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async AddToCartPage.checkout (addToCart.page.js:79:9)
+                    at async World.&lt;anonymous> (steps.js:73:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668580044751' status='pending' stop='1668580044752'>
+            <name>When User select shipping method and place order</name>
+            <title>When User select shipping method and place order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668580044752' status='pending' stop='1668580044752'>
+            <name>Then User get success "Thank you for your purchase!"</name>
+            <title>Then User get success "Thank you for your purchase!"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668580044752' status='passed' stop='1668580044753'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

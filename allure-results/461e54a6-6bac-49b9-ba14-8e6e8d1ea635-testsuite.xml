@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668588014872' stop='1668588025210'>
+    <name>Add Product to cart, Proceed to checkout till make payments and validate order: Validate the order</name>
+    <title>Add Product to cart, Proceed to checkout till make payments and validate order: Validate the order</title>
+    <test-cases>
+        <test-case start='1668588014872' status='passed' stop='1668588014872'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668588014873' status='broken' stop='1668588025206'>
+            <name>Given Navigate to Order confirmation page</name>
+            <title>Given Navigate to Order confirmation page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='946ada4a-6a2a-4dd1-aae4-0dd253c042d2-attachment.png' type='image/png' size='223246'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector ".order-number" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector ".order-number" because element wasn't found
+                    at implicitWait (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async AddToCartPage.orderPage (addToCart.page.js:107:9)
+                    at async World.&lt;anonymous> (steps.js:86:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668588025207' status='pending' stop='1668588025208'>
+            <name>Then Verify the "Ajax Full-Zip Sweatshirt" and "2"</name>
+            <title>Then Verify the "Ajax Full-Zip Sweatshirt" and "2"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668588025208' status='passed' stop='1668588025209'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\allure-report",
+    "\\features",
+    "\\features\\pageobjects",
+    "\\features\\step-definitions"
+  ],
+  "SelectedNode": "\\wdio.conf.js",
+  "PreviewInSolutionExplorer": false
+}

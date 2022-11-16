@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668573652344' stop='1668573662557'>
+    <name>Add Product to cart, Proceed to checkout till make payments and validate order: Proceed to checkout and confirm the order</name>
+    <title>Add Product to cart, Proceed to checkout till make payments and validate order: Proceed to checkout and confirm the order</title>
+    <test-cases>
+        <test-case start='1668573652344' status='passed' stop='1668573652345'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668573652345' status='broken' stop='1668573662554'>
+            <name>Given User is on checkout page</name>
+            <title>Given User is on checkout page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e2418938-7069-4505-ad34-c60d1d7134ef-attachment.png' type='image/png' size='16101'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector ".showcart" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector ".showcart" because element wasn't found
+                    at implicitWait (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async AddToCartPage.checkout (E:\Project\WebDriverIO-CodeTest\features\pageobjects\addToCart.page.js:68:5)
+                    at async World.&lt;anonymous> (E:\Project\WebDriverIO-CodeTest\features\step-definitions\steps.js:63:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668573662554' status='pending' stop='1668573662555'>
+            <name>When User select shipping method and place order</name>
+            <title>When User select shipping method and place order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668573662555' status='pending' stop='1668573662556'>
+            <name>Then User get success ""</name>
+            <title>Then User get success ""</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668573662556' status='passed' stop='1668573662556'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

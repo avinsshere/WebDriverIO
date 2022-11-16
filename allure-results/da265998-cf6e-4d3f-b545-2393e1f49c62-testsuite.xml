@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668567219842' stop='1668567236210'>
+    <name>Verify the Login functionality of Magento Commerce application: Login to the account with invalid data</name>
+    <title>Verify the Login functionality of Magento Commerce application: Login to the account with invalid data</title>
+    <test-cases>
+        <test-case start='1668567219842' status='passed' stop='1668567219843'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668567219843' status='passed' stop='1668567219850'>
+            <name>Given User is on the login page</name>
+            <title>Given User is on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668567219850' status='passed' stop='1668567225796'>
+            <name>When User provide "shereavi27@gmail.com" and "Password"</name>
+            <title>When User provide "shereavi27@gmail.com" and "Password"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668567225797' status='passed' stop='1668567225909'>
+            <name>Then Verify User can see alert "Incorrect CAPTCHA"</name>
+            <title>Then Verify User can see alert "Incorrect CAPTCHA"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668567225909' status='broken' stop='1668567236208'>
+            <name>Then User log out from application</name>
+            <title>Then User log out from application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='98dfbaf8-53d4-4b88-9e82-9e43db4a1ba6-attachment.png' type='image/png' size='51874'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector ".switch" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector ".switch" because element wasn't found
+                    at implicitWait (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async CreateAccountPage.logout (createAccount.page.js:118:9)
+                    at async World.&lt;anonymous> (steps.js:44:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668567236209' status='passed' stop='1668567236209'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

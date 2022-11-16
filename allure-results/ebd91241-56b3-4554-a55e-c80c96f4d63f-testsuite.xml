@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668537430439' stop='1668537438385'>
+    <name>Verify the functionality of Login: Login to the account with invalid data</name>
+    <title>Verify the functionality of Login: Login to the account with invalid data</title>
+    <test-cases>
+        <test-case start='1668537430440' status='passed' stop='1668537430440'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668537430441' status='passed' stop='1668537430451'>
+            <name>Given User is on the login page</name>
+            <title>Given User is on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668537430451' status='passed' stop='1668537437467'>
+            <name>When User provide "shereavi27@gmail.com" and "Password"</name>
+            <title>When User provide "shereavi27@gmail.com" and "Password"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668537437468' status='failed' stop='1668537438382'>
+            <name>Then Verify User can see alert "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later."</name>
+            <title>Then Verify User can see alert "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3fa9a236-7766-4292-b629-e9f14b9bed7f-attachment.png' type='image/png' size='51874'/>
+            </attachments>
+            <failure>
+                <message>AssertionError</message>
+                <stack-trace>AssertionError
+                    + expected - actual
+                
+                    -Incorrect CAPTCHA
+                    +The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+                
+                    at LoginPage.alertMessage (E:\Project\WebDriverIO-CodeTest\features\pageobjects\login.page.js:97:45)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (E:\Project\WebDriverIO-CodeTest\features\step-definitions\steps.js:41:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668537438383' status='pending' stop='1668537438383'>
+            <name>Then User log out from application</name>
+            <title>Then User log out from application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668537438384' status='passed' stop='1668537438384'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

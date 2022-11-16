@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668582970229' stop='1668582984452'>
+    <name>Add Product to cart, Proceed to checkout till make payments and validate order: Proceed to checkout and confirm the order</name>
+    <title>Add Product to cart, Proceed to checkout till make payments and validate order: Proceed to checkout and confirm the order</title>
+    <test-cases>
+        <test-case start='1668582970230' status='passed' stop='1668582970231'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668582970231' status='passed' stop='1668582974069'>
+            <name>Given User is on checkout page</name>
+            <title>Given User is on checkout page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668582974070' status='broken' stop='1668582984450'>
+            <name>When User select shipping method and place order</name>
+            <title>When User select shipping method and place order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f3c06385-fe8b-4df0-a38e-d38939e28e52-attachment.png' type='image/png' size='40101'/>
+            </attachments>
+            <failure>
+                <message>Error: waitUntil condition failed with the following reason: Can't call getText on element with selector "#shipping" because element wasn't found</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Can't call getText on element with selector "#shipping" because element wasn't found
+                    at E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\commands\browser\waitUntil.js:70:15
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async AddToCartPage.shipingMethod (E:\Project\WebDriverIO-CodeTest\features\pageobjects\addToCart.page.js:80:5)
+                    at async World.&lt;anonymous> (E:\Project\WebDriverIO-CodeTest\features\step-definitions\steps.js:68:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668582984450' status='pending' stop='1668582984451'>
+            <name>Then User get success "Thank you for your purchase!"</name>
+            <title>Then User get success "Thank you for your purchase!"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668582984451' status='passed' stop='1668582984452'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

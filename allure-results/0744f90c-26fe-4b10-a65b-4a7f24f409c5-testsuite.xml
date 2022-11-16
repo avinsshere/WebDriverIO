@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668573642141' stop='1668573652329'>
+    <name>Add Product to cart, Proceed to checkout till make payments and validate order: Add product to cart</name>
+    <title>Add Product to cart, Proceed to checkout till make payments and validate order: Add product to cart</title>
+    <test-cases>
+        <test-case start='1668573642141' status='passed' stop='1668573642141'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668573642141' status='broken' stop='1668573652326'>
+            <name>Given User navigate to the product page</name>
+            <title>Given User navigate to the product page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bfbfda4c-2ced-4816-9c57-7311928f11b7-attachment.png' type='image/png' size='16101'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call moveTo on element with selector "#ui-id-5" because element wasn't found</message>
+                <stack-trace>Error: Can't call moveTo on element with selector "#ui-id-5" because element wasn't found
+                    at implicitWait (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (E:\Project\WebDriverIO-CodeTest\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (E:\Project\WebDriverIO-CodeTest\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async AddToCartPage.navigateToProductPage (E:\Project\WebDriverIO-CodeTest\features\pageobjects\addToCart.page.js:45:5)
+                    at async World.&lt;anonymous> (E:\Project\WebDriverIO-CodeTest\features\step-definitions\steps.js:49:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668573652327' status='pending' stop='1668573652327'>
+            <name>When User search the ""</name>
+            <title>When User search the ""</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668573652327' status='pending' stop='1668573652328'>
+            <name>When User provide "" and "" and ""</name>
+            <title>When User provide "" and "" and ""</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668573652328' status='pending' stop='1668573652329'>
+            <name>Then By clicking on add to cart button product is added</name>
+            <title>Then By clicking on add to cart button product is added</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668573652329' status='passed' stop='1668573652329'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

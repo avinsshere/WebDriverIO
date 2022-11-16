@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668584981497' stop='1668584984628'>
+    <name>Add Product to cart, Proceed to checkout till make payments and validate order: Validate the order</name>
+    <title>Add Product to cart, Proceed to checkout till make payments and validate order: Validate the order</title>
+    <test-cases>
+        <test-case start='1668584981498' status='passed' stop='1668584981498'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668584981498' status='passed' stop='1668584983975'>
+            <name>Given Navigate to Order confirmation page</name>
+            <title>Given Navigate to Order confirmation page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668584983975' status='failed' stop='1668584984626'>
+            <name>Then Verify the "Ajax Full-Zip Sweatshirt" and "2"</name>
+            <title>Then Verify the "Ajax Full-Zip Sweatshirt" and "2"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='23b26c9c-c633-446f-856c-d9bb63c85b23-attachment.png' type='image/png' size='69734'/>
+            </attachments>
+            <failure>
+                <message>AssertionError</message>
+                <stack-trace>AssertionError
+                    + expected - actual
+                
+                    -4
+                    +2
+                
+                    at AddToCartPage.verifyOrder (E:\Project\WebDriverIO-CodeTest\features\pageobjects\addToCart.page.js:108:29)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (E:\Project\WebDriverIO-CodeTest\features\step-definitions\steps.js:79:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668584984627' status='passed' stop='1668584984627'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
